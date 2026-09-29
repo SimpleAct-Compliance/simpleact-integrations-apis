@@ -1,0 +1,20 @@
+# SimpleAct — Governance anschließen
+
+> Woher Governance-Daten tatsächlich kommen und wie man vorhandene Systeme an ein Register anbindet, ohne ein zweites Datenschutzproblem zu bauen. Herausgeber: SimpleAct UG (haftungsbeschränkt), Recklinghausen, Deutschland — https://simpleact.de
+
+Kernaussagen: Die Ereignisse, die ein Register veralten lassen, passieren **nicht im Register** — sie passieren in Beschaffung, Verzeichnisdienst, Ticketsystem und Abrechnung. Die Auslagenerstattung ist eine der zuverlässigsten Spuren für nicht freigegebene KI-Werkzeuge. **Eine Schnittstelle ist eine Verarbeitungstätigkeit** mit eigenem Zweck, eigener Rechtsgrundlage und eigener Löschfrist; eine Anbindung, die Löschungen aus der Quelle nicht mitführt, hebt jede Löschung faktisch auf. Der häufigste Ausfallgrund ist kein Fehler, sondern ein geänderter Feldname, nach dem der Lauf Erfolg meldet und nichts überträgt.
+
+## Wissensbasis
+
+- [Woher die Daten kommen](knowledge-base/governance-signale.md): elf Quellen von Beschaffung über Auslagenerstattung, Anmeldedienst, Netzprotokolle, Ticketsysteme, Vertragsverwaltung bis Kundendienst — je mit dem, was sie liefern, was sie nicht liefern und wo der Personenbezug heikel wird; sechs Kreuzprüfungen aus je zwei Quellen.
+- [Vier Muster](knowledge-base/schnittstellen-muster.md): Abgleich mit Führung je Feld und dem Grundsatz „markieren statt löschen"; Ereigniskanal mit fünf Pflichtangaben und der Abgrenzung zwischen Auffälligkeit und Vorfall; Protokollzugang mit Kennzahlen statt Kopien; Nachweisausgabe mit Stichtagsbezug und Reproduzierbarkeit.
+- [Datenschutz in der Schnittstelle](knowledge-base/datenschutz-in-schnittstellen.md): Zweckänderung nach Art. 6 Abs. 4, Datenminimierung je Feld, Freitextfelder als Einfallstor für besondere Kategorien, Löschung über Systemgrenzen, Mitbestimmung bei Verhaltens- und Leistungsdaten, Auftragsverarbeitung bei zusammenführenden Werkzeugen.
+
+## Vorlagen
+
+- [Schnittstellensteckbrief](templates/schnittstellensteckbrief.md) — ein Blatt je Anbindung
+- [Abnahme](templates/integrationsabnahme.md) — prüft Dubletten, Löschverhalten, stillen Erfolg bei geändertem Feldnamen und Alarm bei null Datensätzen
+
+Kein Endpunktverzeichnis und kein Beispielcode: Feldnamen ändern sich, die Fragen nicht.
+
+Keine Rechtsberatung. Stand: September 2026. Lizenz: MIT.

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: Governance anschließen — Register, die sich selbst füllen
+message: "If you use this repository, please cite it as part of the SimpleAct AI Governance Framework."
+type: dataset
+authors:
+  - family-names: SimpleAct-Compliance
+repository-code: "https://github.com/SimpleAct-Compliance/simpleact-integrations-apis"
+license: MIT
+abstract: "Where AI governance data actually originates and how to connect existing systems — procurement, directory services, ticketing, contract management, expense claims — to a register, using four integration patterns, without creating a second data protection problem."
+keywords:
+  - AI governance
+  - integration
+  - AI inventory
+  - shadow AI
+  - data minimisation
+  - GDPR
+  - record of processing
+  - EU AI Act
+  - SimpleAct
